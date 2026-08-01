@@ -1,7 +1,25 @@
 aid: retravelio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retravelio.png
 name: reTravel.io
-description: reTravel.io is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: reTravel.io is a travel retention marketing platform that uses data science
+  and machine learning to help travel companies, TMCs, and corporates retain customers,
+  increase attachment rates, and grow revenue from their existing clients. Founded in
+  2020 by Revital Kristal and Nir Gurevich in Tel Aviv, the platform extracts booking
+  information via predefined plugins and contextually engages travelers across multiple
+  channels with personalized, policy-compliant products. It operates on a performance-based
+  commercial model tied to the uplift it generates and is backed by Techstars. reTravel.io
+  exposes no public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/retravelio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Travel Technology
+- Marketing
+- Customer Retention
+- Machine Learning
+- Personalization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/retravelio-domain-security.yml
 - type: Website
   url: https://retravel.io/
+- type: About
+  url: https://retravel.io/about-us/
+- type: Contact
+  url: https://retravel.io/contact/
+- type: Login
+  url: https://app.retravel.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
