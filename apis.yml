@@ -47,7 +47,7 @@ tags:
 - Travel Technology
 - Marketing
 - Customer Retention
-- Machine-Learning
+- Machine Learning
 - Personalization
 tags_raw:
 - Company
@@ -57,6 +57,7 @@ tags_raw:
 - Customer Retention
 - Machine Learning
 - Personalization
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
